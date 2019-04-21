@@ -1,0 +1,45 @@
+body {
+	background:linear-gradient(45deg,rgb(57,207,215),white);
+}
+#content {
+	width: 100%;
+	height:40px;
+	background-color: black;
+}
+table {
+	padding:5px;
+}
+a {
+	color:white;
+	text-decoration: none;
+}
+#info {
+	width:400;
+	height:400;
+	font-size: 20;
+	position:absolute;
+	top:300;
+	left:400;
+}
+.step1 {
+	
+	position: absolute;
+	top:-60;
+	left:100;
+}
+ li {
+	text-decoration: none;
+}
+#plans {
+	background-color: red;
+	color:white;
+	width:400;
+	height:50;
+	border-radius: 15px;
+	position: absolute;
+	top:500;
+	left:400;
+}
+
+
+

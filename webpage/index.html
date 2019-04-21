@@ -1,0 +1,89 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">	
+</head>
+<body>
+	<script type="text/javascript" src="jquery-1.11.3.js"></script>
+	<script>
+function seach_value(){
+	var a=$("#search").val();
+					$("#search").val("");
+					console.log(a);	
+}
+function genre_value(genre){
+	console.log(genre);
+}			
+			$(function(){
+				$("select.genre").change(function(){
+					var genre=$(this).children("option:selected").val();
+					genre_value(genre);
+				});
+				$("#ser").click(function(){
+					seach_value();
+				});
+			});
+	</script>
+<div id="content">
+<table>
+	<tr>
+		<td> 
+			&nbsp&nbsp&nbsp&nbsp<a href="front.html">HOME</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="login.html">LOGIN</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="payment.html">PAYMENT METHODS</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="">CONTACT US</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="">ABOUT US</a> 	
+	</td>
+	</tr>	
+</table>	
+</div>
+	<p class="sgq">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSearch&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Genre&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Quality</p>
+<form action="" method="">
+<input id="search" type="text" name="" placeholder="Search Movie & T.V. Series..">
+<select class="genre">
+<option>All</option>
+<option>Horror</option>	
+<option>Drama</option>
+<option>Romance</option>
+<option>Action</option>
+<option>Biography</option>
+<option>Crime</option>
+<option>Documentry</option>
+<option>War</option>
+<option>Si-Fi</option>
+<option>Adventure</option>
+<option>Thriller</option>
+<option>Comedy</option>
+<option>Family</option>
+<option>Fantasy</option>
+<option>Animation</option>
+<option>History</option>
+<option>Musical</option>
+<option>TV Series</option>
+<option>Western</option>
+</select>
+<select class="quality" placeholder="Quality">
+	<option>All</option>
+	<option>720p</option>
+	<option>1080p</option>
+	<option>4K</option>
+</select>
+</form></br></br></br></br></br>
+<p id="ser">SEARCH..</p>
+<div id="movie">
+<ul>
+	<li class="All Drama,Romance"><a href="movie/kedarnath/kedarnath.html"><div id="mov"><img id="i11" src="movie/kedarnath/kedarnath.jpg">Kedarnath 2018<p class="info">Genre:Drama,Romance</p><p class="imdb"><img src="imdb.png">5.9</p></div></a></li>
+	<li class="All Action,Si-Fi"><a href=""><div id="mov"><img id="i1" src="movie/venom/3.jpg">Venom 2018<p class="info">Genre:Action,Si-Fi</p><p class="imdb"><img src="imdb.png">6.8</p></div></a></li>
+	<li class="All Biography,History,Si-Fi"><a href=""><div id="mov"><img id="i2" src="movie/the first man/5.jpg">The First Man 2018<p class="info">Genre:Biography,History,Si-Fi</p><p class="imdb"><img src="imdb.png">7.4</p></div></a></li>
+	<li class="All Action,Adventure,Comedy"><a href=""><div id="mov"><img id="i3" src="movie/johny english/6.jpg">Johny English Strikes Again 2018<p class=info>Genre:Action,Adventure,</br>Comedy</p><p class="imdb"><img src="imdb.png">6.2</p></div></a></li>
+	<li class="All Animation,Adventure,Comedy,Family,Fantasy,Musical"><a href=""><div id="mov"><img id="i4" src="movie/small foot/7.jpg">Small Foot 2018<p class="info">Genre:Animation,Adventure,</br>Comedy,Family,Fantasy,Musical</p><p class="imdb"><img src="imdb.png">6.7</p></div></a></li>
+	<li class="All Action,Adventure,Si-Fi,Thriller"><a href=""><div id="mov"><img id="i5" src="movie/the predator/8.jpg">The Predator 2018<p class="info">Genre:Action,Adventure,Si-Fi,Thriller</p><p class="imdb"><img src="imdb.png">5.4</p></div></a></li>
+	<li class="All Action,Thriller"><a href=""><div id="mov"><img id="i6" src="movie/force/force.jpg">Force 2011<p class="info">Genre:Action,Thriller</p><p class="imdb"><img src="imdb.png">6.4</p></div></a></li>
+	<li class="All Documentry"><a href=""><div id="mov"><img id="i7" src="movie/hacked/hacked.jpg">Hacked 2016<p class="info">Genre:Documentry</p><p class="imdb"><img src="imdb.png">5.2</p></div></a></li>
+	<li class="All Comedy,Romance"><a href=""><div id="mov"><img id="i8" src="movie/sonu ke sweety/sonu.jpg">Sonu Ke Titu Ki Sweety 2018<p class="info">Genre:Comedy,Romance</p><p class="imdb"><img src="imdb.png">7.1</p></div></a></li>
+	<li class="All Drama,Musical,Romance"><a href=""><div id="mov"><img id="i9" src="movie/a star is born/star.jpg"></br>A Star Is Born 2018<p class="info">Genre:Drama,Musical,</br>Romance</p><p class="imdb"><img src="imdb.png">7.8</p></div></a></li>
+	<li class="All Comedy,Horror"><a href=""><div id="mov"><img id="i10" src="movie/stree/stree.jpg">Stree 2018<p class="info">Genre:Comedy,Horror</p><p class="imdb"><img src="imdb.png">7.8</p></div></a></li>
+</ul>	
+</div>
+</div>
+</body>
+</html>

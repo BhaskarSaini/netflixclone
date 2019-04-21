@@ -1,0 +1,312 @@
+body {
+	background:linear-gradient(45deg,pink,white);
+}
+#content {
+	width: 100%;
+	height:50px;
+	background-color: black;
+}
+a {
+	color:white;
+	text-decoration: none;
+}
+.step {
+	color:red;
+	position: absolute;
+	top:140;
+	left:100;
+}
+.plan {
+	font-size:30;
+	position: absolute;
+	top:180;
+	left:130;
+}
+.time {
+	font-size:20;
+	position: absolute;
+	top:250;
+	left:130;
+}
+#box1 {
+	font-size: 30;
+	width:50;
+	height:50;
+	color:white;
+	background-color: red;
+	position: absolute;
+	top:330;
+	right:600;
+	opacity: 0.7;
+	padding: 40;
+}
+#box1:hover {
+	opacity:1.0;
+	cursor:hand;
+}
+#box2:hover {
+	opacity:1.0;
+	cursor:hand;
+}
+#box3:hover {
+	opacity:1.0;
+	cursor:hand;
+}
+#box2 {
+	font-size: 30;
+	width:55;
+	height:50;
+	color:white;
+	background-color: red;
+	position: absolute;
+	top:330;
+	right:400;
+	padding: 40;
+	opacity: 0.7;
+}
+#box3 {
+	font-size: 30;
+	width:55;
+	height:50;
+	color:white;
+	background-color: red;
+	position: absolute;
+	top:330;
+	right:190;
+	padding: 40;
+	opacity: 0.7;
+}
+.b1 {
+	position: absolute;
+	top:15;
+	left:6;
+}
+.b2 {
+	position: absolute;
+	top:15;
+	left:10;
+}
+.b3 {
+	position: absolute;
+	top:15;
+	left:10;
+}
+.details {
+	font-size: 20;
+	font-family: arial;
+	position: absolute;
+	top:540;
+	left:100;
+}
+td {
+	padding: 20px;
+}
+.img1 {
+	position: relative;
+	left:430;
+}
+.img2 {
+	position: relative;
+	left:610;
+}
+.img3 {
+	position: relative;
+	left:800;
+}
+.img4 {
+	position: relative;
+	left:380;
+}
+.img5 {
+	position: relative;
+	left:560;
+}
+.img6 {
+	position: relative;
+	left:755;
+}
+.img7 {
+	position: relative;
+	left:365;
+}
+.img8 {
+	position: relative;
+	left:120;
+}
+.img9 {
+	position: relative;
+	left:523;
+}
+.img10{
+	position: relative;
+	left:210;
+}
+.img11 {
+	position: relative;
+	left:400;
+}
+.img12 {
+	position: relative;
+	left:590;
+}
+.img13 {
+	position: relative;
+	left:362;
+}
+.img14 {
+	position: relative;
+	left:560;
+}
+.img15 {
+	position: relative;
+	left:745;
+}
+.img16 {
+	position: relative;
+	left:390;
+}
+.img17 {
+	position: relative;
+	left:585;
+}
+.img18 {
+	position: relative;
+	left:770;
+}
+button {
+	font-size: 15px;
+	width:300;
+	height:40;
+	color:white;
+	background-color: red;
+	position: relative;
+	top:1000;
+	left:510;
+	border-radius: 10px;
+}
+.quality {
+	position: relative;
+	top:1000;
+	left:100;
+}
+.pay {
+	position: absolute;
+	top:1400;
+	left:100;
+}
+#card {
+	height: 40;
+	width:250;
+	position: absolute;
+	top:40;
+	left:30;
+}
+#expiry {
+	height: 40;
+	width:200;
+	position: absolute;
+	top:90;
+	left:30;
+}
+#month {
+	height: 40;
+	width:60;
+	position: absolute;
+	top:90;
+	left:100;
+}
+#year {
+	height: 40;
+	width:60;
+	position: absolute;
+	top:90;
+	left:170;
+}
+#cvv {
+	height: 40;
+	width:60;
+	position: absolute;
+	top:90;
+	left:250;
+}
+#question {
+	position: absolute;
+	top:105;
+	left:290;
+}
+#pay {
+	height:40;
+	width:150;
+	color: white;
+	background-color: rgb(70,166,30);
+	position: absolute;
+	top: 90;
+	left: 330;
+}
+#details {
+ position: relative;
+ top:1000;
+ left:20;
+}
+#opt2 input{
+	margin: 15;
+}
+.bold {
+	font-weight: bolder;
+	position: relative;
+	left:50;
+}
+#submit {
+	height:40;
+	width:150;
+	color: white;
+	background-color: rgb(70,166,30);
+	position: absolute;
+	top:360;
+	left:300;
+} 
+#screen {
+	display: none;
+	text-align: center;
+	width:490;
+	height:80;
+	background-color: grey;
+	position: absolute;
+	top:135;
+	left:200;
+	background-color: rgb(160,207,182);
+}
+#screen2 {
+		display: none;
+		background-color: rgb(160,207,182);
+		width:30;
+		height:30;
+		transform: rotate(-45deg);
+		position: absolute;
+		top:125;
+		left:250;
+}		
+#phase1 {
+	display:none;
+}
+#phase2 {
+	display:none;
+}
+#cont1 {
+	background-color: red;
+	color: white;
+	width:300;
+	height:40;
+	position: absolute;
+	top:90;
+	right:100;
+}
+#cont2 {
+	background-color: red;
+	color: white;
+	width:300;
+	height:40;
+	position: absolute;
+	top:350;
+	right:100;
+}

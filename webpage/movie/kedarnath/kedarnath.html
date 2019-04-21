@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<script src="jquery-1.11.3.js"></script>
+<script>
+	$(function(){
+		$("#play").click(function(){
+			$("#screen").fadeIn();
+		});
+		$("#screen img").click(function(){
+			$("#screen").fadeOut();
+		});
+		$("#box").keypress(function(event){
+			if (event.which==13) {
+				if($("#enter").prop("checked")) {
+					var a=$("#box").val();
+					$("#box").val("");
+					var b=$("#commentscreen").html();
+					$("#commentscreen").html(b+"<br>"+a);
+				}
+			}
+		})
+	});
+</script>	
+		<div id="content">
+<table>
+	<tr>
+		<td> 
+			&nbsp&nbsp&nbsp&nbsp<a href="front.html">HOME</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="login.html">LOGIN</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="payment.html">PAYMENT METHODS</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="">CONTACT US</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="">ABOUT US</a> 	
+	</td>
+	</tr>	
+</table>	
+</div>
+<div id="movie">
+<ul>
+	<li class="All Drama,Romance"><div id="mov"><img id="i11" src="kedarnath.jpg">Kedarnath 2018<p class="info">Genre:Drama,Romance</p><p class="imdb"><img src="imdb.png">5.9</p></div></li>
+	</ul>
+</div>
+	<iframe id="kedatrailer" width="720" height="400" src="https://www.youtube.com/embed/nYMT_cP9CmY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div id="all">
+<h2>SYNOPSIS</h2>
+<p class="syno">A Hindu-Muslim love story, Kedarnath portrays how a Muslim pithoo saves a Hindu</br> tourist from the Uttrakhand floods at the pilgrimage, and the love that eventually</br> develops between them.
+</p>
+<p>Director:Abhishek Kapoor</p>
+<p>Writers:Abhishek Kapoor (story), Kanika Dhillon (story)</p>
+<p>Stars: Sushant Singh Rajput, Sara Ali Khan, Nitish Bharadwaj </p>
+</div>
+<button class="add">+ Add To Watchlist..</button>
+<button id="play">Play Now <button>
+<button class="download">Download</button>
+<div id="screen">
+	<video autoplay width="760" height="500" controls ></video>
+	<img src="cross.png">
+</div>
+<div id="vote">
+	<p>WHAT DO YOU THINK ABOUT THIS MOVIE..??</p>
+	<button><img src="upvote.png">UPVOTE</button>
+	<button><img src="surprised.png">SURPRISED</button>
+	<button><img src="love.png">LOVE</button>
+	<button><img src="funny.png">FUNNY</button>
+	<button><img src="sad.png">SAD</button>
+	<button><img src="angry.png">ANGRY</button>
+
+<p class="com">COMMENTS</p>
+</br>
+<hr>
+<a href="front.html">LOGIN</a>
+<img class="pho" src="nobody.png">
+<form>
+<textarea  rows="150" id="box" placeholder="Join the discussion..."></textarea>
+<input type="checkbox" name="" id="enter">Send On Enter..
+</form>
+</div>	
+<div id="commentscreen">
+</div>
+<button id="box1">Latest Movies</button>
+<button id="box2">TV Series</button>
+</body>
+</html>
+
+

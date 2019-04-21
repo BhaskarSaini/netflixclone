@@ -1,0 +1,93 @@
+body {
+	background: url(10.jpg);
+}
+#content {
+	width: 100%;
+	height:40px;
+	background-color: black;
+}
+table {
+	padding:5px;
+}
+#movie ul img{
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 5px;
+}
+a {
+	color:white;
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+#movie ul li{
+	display: inline;
+}
+#mov {
+	color:white;
+	padding: 30px;
+	margin: 15px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: center;
+	width:150px;
+	height:280px;
+	background-color: rgba(91,70,188,0.9);
+}
+p.imdb {
+	float:left;
+	position: relative;
+	bottom: 35px;
+	left:-10px;
+}
+p.info {
+	float:left;
+	position: relative;
+	bottom: 11px;
+	left:-25px;
+}
+#search {
+	height:40px;
+	width:250px;
+	position: relative;
+	top:30px;
+	left:350px;
+	font-size: 15px;
+	border-radius: 5px;
+}
+select.quality {
+	height:40px;
+	width:90px;
+	position: relative;
+	top:30px;
+	left:450px;
+	font-size: 15px;
+	border-radius: 5px;
+}
+.genre {
+	height:40px;
+	width:90px;
+	position: relative;
+	top:30px;
+	left:400px;
+	font-size: 15px;
+	border-radius: 5px;
+}
+p.sgq {
+	color: white;
+	font-size: 20px;
+	position: relative;
+	top:40px;
+}
+#ser {
+	position: absolute;
+	top:130px;
+	right:300px;
+	color:white;
+	font-size: 20px;
+}
+#ser:hover {
+	cursor: hand;
+}
